@@ -1,9 +1,9 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
- * 1. Set default font family to sans-serif.
+ * 1. Set default font family to sans-serif. -- 字体默认设置为sans-serif
  * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
+ *    user zoom. -- iOS文字大小调整后防止用户改变方向，不禁用缩放。
  */
 
 html {
@@ -13,7 +13,7 @@ html {
 }
 
 /**
- * Remove default margin.
+ * Remove default margin. -- 移除默认外边距
  */
 
 body {
@@ -156,6 +156,7 @@ small {
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ * -- 防止sub、sup影响所有浏览器的line-height设置
  */
 
 sub,
@@ -178,7 +179,7 @@ sub {
    ========================================================================== */
 
 /**
- * Remove border when inside `a` element in IE 8/9/10.
+ * Remove border when inside `a` element in IE 8/9/10. -- IE8/9/10删除a链接嵌套图片的边框
  */
 
 img {
