@@ -20,14 +20,14 @@ body {
   margin: 0;
 }
 
-/* HTML5 display definitions
+/* HTML5 display definitions HTML5新标签显示设置
    ========================================================================== */
 
 /**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for any HTML5 element in IE 8/9. -- 修正在IE8/9中显示为"块"未定义
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
+ * and Firefox. -- 修正在IE10/11和火狐浏览器中：details和summary显示为块未定义
+ * Correct `block` display not defined for `main` in IE 11. -- 修正在IE11中main显示为块未定义
  */
 
 article,
@@ -47,8 +47,8 @@ summary {
 }
 
 /**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ * 1. Correct `inline-block` display not defined in IE 8/9. -- 修正在IE8/9中显示为inline-block未定义
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera. -- 规范垂直对齐`progress`在Chrome，Firefox，Opera。
  */
 
 audio,
@@ -70,8 +70,8 @@ audio:not([controls]) {
 }
 
 /**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ * Address `[hidden]` styling not present in IE 8/9/10. -- 在IE 8/9/10中hidden样式不呈现
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22. -- 隐藏template元素在IE 8/9/11, Safari, and Firefox < 22浏览器中。
  */
 
 [hidden],
@@ -79,19 +79,21 @@ template {
   display: none;
 }
 
-/* Links
+/* Links 链接
    ========================================================================== */
 
 /**
- * Remove the gray background color from active links in IE 10.
+ * Remove the gray background color from active links in IE 10. -- IE10中移除激活链接的灰色背景颜色
  */
 
 a {
-  background-color: transparent;
+  background-color: transparent;/* transparent透明 */
 }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
+ * 提高所有浏览器的可读性当获取焦点和鼠标移入时。
+ *
  */
 
 a:active,
@@ -99,11 +101,11 @@ a:hover {
   outline: 0;
 }
 
-/* Text-level semantics
+/* Text-level semantics 文本层次语义
    ========================================================================== */
 
 /**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.--在IE 8/9/10/11, Safari, and Chrome浏览器中样式不显示
  */
 
 abbr[title] {
@@ -156,7 +158,7 @@ small {
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- * -- 防止sub、sup影响所有浏览器的line-height设置
+ * -- 防止sub、sup影响所有浏览器的行高设置
  */
 
 sub,
@@ -187,18 +189,18 @@ img {
 }
 
 /**
- * Correct overflow not hidden in IE 9/10/11.
+ * Correct overflow not hidden in IE 9/10/11. -- 纠正IE 9/10/11的溢出不隐藏
  */
 
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* Grouping content
+/* Grouping content 分组内容
    ========================================================================== */
 
 /**
- * Address margin not present in IE 8/9 and Safari.
+ * Address margin not present in IE 8/9 and Safari. -- IE 8/9和Safari外边距不呈现问题
  */
 
 figure {
@@ -234,17 +236,18 @@ samp {
   font-size: 1em;
 }
 
-/* Forms
+/* Forms 表单
    ========================================================================== */
 
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
+ * 料件限制：默认情况下，
  */
 
 /**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
+ * 1. Correct color not being inherited. -- 1、纠正颜色不继承问题
+ *    Known issue: affects color of disabled elements. 
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
@@ -296,7 +299,7 @@ input[type="submit"] {
 }
 
 /**
- * Re-set default cursor for disabled elements.
+ * Re-set default cursor for disabled elements. -- 重置无效元素的默认光标
  */
 
 button[disabled],
@@ -305,7 +308,7 @@ html input[disabled] {
 }
 
 /**
- * Remove inner padding and border in Firefox 4+.
+ * Remove inner padding and border in Firefox 4+. -- 移除Firefox 4+的内边距和边框
  */
 
 button::-moz-focus-inner,
@@ -326,9 +329,9 @@ input {
 /**
  * It's recommended that you don't attempt to style these elements.
  * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
+ * 强烈建议不要试图修改这些元素的样式：
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.--
+ * 2. Remove excess padding in IE 8/9/10.--去除IE 8/9/10多余的填充
  */
 
 input[type="checkbox"],
@@ -371,7 +374,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /**
- * Define consistent border, margin, and padding.
+ * Define consistent border, margin, and padding.--定义一致的边框、外边距、内边距
  */
 
 fieldset {
@@ -391,7 +394,7 @@ legend {
 }
 
 /**
- * Remove default vertical scrollbar in IE 8/9/10/11.
+ * Remove default vertical scrollbar in IE 8/9/10/11.--删除在IE 8/9/10/11默认的垂直滚动条
  */
 
 textarea {
@@ -407,11 +410,11 @@ optgroup {
   font-weight: bold;
 }
 
-/* Tables
+/* Tables 表格
    ========================================================================== */
 
 /**
- * Remove most spacing between table cells.
+ * Remove most spacing between table cells. -- 删除表格单元格之间的最大间距
  */
 
 table {
