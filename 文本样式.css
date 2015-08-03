@@ -1,0 +1,13 @@
+- `text-indent`  规定文本块中首行文本的缩进
+- `text-transform` 定义文本的大小写状态,此属性对中文无意义
+- `text-decoration` 规定添加到文本的修饰，常用的有underline、none等
+- `text-align` 规定元素中的文本的水平对齐方式，常用的有left、right、center
+- `word-spacing` 增加或减少单词间的空白（即字间隔）
+- `white-space` 设置如何处理元素内的空白
+- `color` 颜色
+- `line-height` 行高
+- `font` 规定文本字体、大小和颜色
+- `font-family`  规定元素的字体系列
+- `font-size` 字体的尺寸
+- `font-weight` 字体的粗细
+- `font-face` 能够加载服务器端的字体文件，让客户端显示客户端所没有安装的字体。
